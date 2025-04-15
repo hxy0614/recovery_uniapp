@@ -1,0 +1,196 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+    	"path" : "pages/training/training",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "居家训练"
+    	}
+    },
+    {
+    	"path" : "pages/my/my",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "我的"
+    	}
+    },
+    {
+    	"path" : "pages/setting/setting",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "设置"
+    	}
+    },
+    {
+    	"path" : "pages/login/login",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "登录"
+    	}
+    },
+    {
+    	"path" : "pages/detail/detail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "关于"
+    	}
+    },
+    {
+    	"path" : "pages/about/privacy/privacy",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "隐私政策"
+    	}
+    },
+    {
+    	"path" : "pages/about/agreement/agreement",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "用户协议"
+    	}
+    },
+    {
+    	"path" : "pages/jiaocheng/kangfu/kangfu",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/jiaocheng/zhidao/zhidao",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "专业指导"
+    	}
+    },
+    {
+    	"path" : "pages/appointment/appointment",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "预约记录"
+    	}
+    },
+    {
+    	"path" : "pages/train/train",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "AI医生"
+    	}
+    },
+    {
+    	"path" : "pages/guide/beginner/beginner",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/guide/dumbbell/dumbbell",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/pinggu/fenshu/fenshu",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "个人评价"
+    	}
+    },
+    {
+    	"path" : "pages/pinggu/pingjia/pingjia",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "个人信息"
+    	}
+    },
+	
+    {
+    	"path" : "pages/news/news1/news1",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/trainings/breathing-detail/breathing-detail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/trainings/breathing-exercise/breathing-exercise",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/trainings/breathing-session/breathing-session",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/trainings/training-detail/training-detail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/trainings/training-exercise/training-exercise",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/trainings/training-session/training-session",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF6B6B",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/training/training",
+        "text": "居家训练",
+        "iconPath": "static/images/tabbar/training.png",
+        "selectedIconPath": "static/images/tabbar/training-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  }
+}

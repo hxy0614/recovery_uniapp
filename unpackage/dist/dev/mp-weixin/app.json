@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/training/training",
+    "pages/my/my",
+    "pages/setting/setting",
+    "pages/login/login",
+    "pages/detail/detail",
+    "pages/about/privacy/privacy",
+    "pages/about/agreement/agreement",
+    "pages/jiaocheng/kangfu/kangfu",
+    "pages/jiaocheng/zhidao/zhidao",
+    "pages/appointment/appointment",
+    "pages/train/train",
+    "pages/guide/beginner/beginner",
+    "pages/guide/dumbbell/dumbbell",
+    "pages/pinggu/fenshu/fenshu",
+    "pages/pinggu/pingjia/pingjia",
+    "pages/news/news1/news1",
+    "pages/trainings/breathing-detail/breathing-detail",
+    "pages/trainings/breathing-exercise/breathing-exercise",
+    "pages/trainings/breathing-session/breathing-session",
+    "pages/trainings/training-detail/training-detail",
+    "pages/trainings/training-exercise/training-exercise",
+    "pages/trainings/training-session/training-session"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF6B6B",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/training/training",
+        "text": "居家训练",
+        "iconPath": "static/images/tabbar/training.png",
+        "selectedIconPath": "static/images/tabbar/training-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my-active.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

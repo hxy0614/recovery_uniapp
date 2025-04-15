@@ -1,0 +1,1 @@
+<view class="settings-container"><view class="settings-list"><view class="settings-item" bindtap="{{b}}"><text>用户名</text><text class="username">{{a}}</text></view><view class="settings-item logout" bindtap="{{c}}"><text>登录/退出</text></view></view></view>

@@ -1,0 +1,32 @@
+// 页面容器
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #FFE5D9 0%, #D4E5FF 100%);
+  padding: 20rpx 20rpx 120rpx;
+}
+
+// 顶部导航栏
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  
+  .title {
+    font-size: 36rpx;
+    font-weight: bold;
+  }
+  
+  .right-icons {
+    display: flex;
+    gap: 20rpx;
+  }
+}
+
+// 卡片基础样式
+.card {
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+}
