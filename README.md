@@ -1,5 +1,7 @@
 **recovery_uniapp小程序本地部署教程**：
+
 技术栈使用的是**MySQL+VUE3+nodejs**，使用的IDE为**uniapp**
+
 数据库使用的是mysql。
 
 **前端部分**：
