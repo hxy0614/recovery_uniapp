@@ -62,7 +62,6 @@ CREATE TABLE personal_info (
 );
 ```
 
-![1000075489.jpg](attachment:f422956f-43af-409b-a0db-e2cc49e243ab:1000075489.jpg)
 
 创建完毕后可以再navicat中查看到可视化的表
 
