@@ -99,6 +99,6 @@ npm install
 
 <aside>
 
-在server文件运行npm start，再运行小程序，联通后即完成部署
+在server文件运行npm start(启动后端)，再运行小程序，联通后即完成部署
 
 </aside>
