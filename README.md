@@ -1,4 +1,12 @@
+**作品部署**：
 技术栈使用的是**MySQL+VUE3+nodejs**，使用的IDE为**uniapp**
+数据库使用的是mysql。
+
+**前端部分**：
+将本代码先clone到本地,然后用uniapp打开，配置好你的微信小程序的appid。
+
+**后端部分**：
+安装Node.js v18.19.0.
 
 **数据库（mysql）**：
 
@@ -63,7 +71,7 @@ CREATE TABLE personal_info (
 ```
 
 
-创建完毕后可以再navicat中查看到可视化的表
+创建完毕后可以用navicat中查看到可视化的表
 
 实现的流程如下：
 
@@ -85,11 +93,6 @@ CREATE TABLE personal_info (
 
 6.数据显示
 
-推荐的辅助开发工具：
-
-https://chat.deepseek.com/a/chat/s/cca571ee-5db8-49e9-b228-424fa043af76
-
-https://bot.n.cn/chat/9e67289f92a9488db33a02f64441b69c?src=AIsearch
 
 # recovery小程序部署
 
@@ -103,12 +106,10 @@ https://blog.csdn.net/qq_40187702/article/details/130618805?ops_request_misc=&re
 
 （建表代码如上）
 
-3.在uniapp配置
+3.配置Node.js
 
-[一文教你用Uniapp连接本地MySQL数据库_uniapp mysql-CSDN博客](https://blog.csdn.net/jsl123x/article/details/139031611?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522ba41785cd3e3aed8749537a635768442%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=ba41785cd3e3aed8749537a635768442&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~hot_rank-5-139031611-null-null.142)
-
-再server文件夹中
-`npm install express axios cors dotenv`
+终端管理员键入到server文件夹中，输入如下命令：
+npm install
 
 <aside>
 💡
