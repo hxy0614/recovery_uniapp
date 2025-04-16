@@ -1,9 +1,10 @@
-**recovery_uniapp小程序本地部署教程**：
+**recovery_uniapp小程序介绍**：
 
 技术栈使用的是**MySQL+VUE3+nodejs**，使用的IDE为**uniapp**
 
 数据库使用的是mysql。
 
+-----------------------------------------------------
 
 **前端部分**：
 将本代码先clone到本地,然后用uniapp打开，配置好你的微信小程序的appid。
@@ -74,11 +75,10 @@ CREATE TABLE personal_info (
     FOREIGN KEY (user_id) REFERENCES vxuser(id) -- 外键约束，引用users表中的id
 );
 ```
-
-
 创建完毕后可以用navicat中查看到可视化的表
+
 --------------------------------------------------------------------------------------------
-# recovery小程序部署
+# recovery小程序本地部署
 
 1.首先下载nodejs
 
