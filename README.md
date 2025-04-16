@@ -89,7 +89,8 @@ https://blog.csdn.net/jsl123x/article/details/139031611?ops_request_misc=%257B%2
 
 https://blog.csdn.net/qq_40187702/article/details/130618805?ops_request_misc=&request_id=&biz_id=102&utm_term=mysql8.0%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-130618805.142
 
-（建表代码如上）
+（数据库的建表代码如上）
+你还需要修改server/database/sql.js文件中你创建的数据库的账号密码
 
 3.配置Node.js
 
@@ -97,7 +98,6 @@ https://blog.csdn.net/qq_40187702/article/details/130618805?ops_request_misc=&re
 npm install
 
 <aside>
-💡
 
 在server文件运行npm start，再运行小程序，联通后即完成部署
 
