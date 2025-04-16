@@ -98,7 +98,14 @@ https://blog.csdn.net/qq_40187702/article/details/130618805?ops_request_misc=&re
 npm install
 
 <aside>
-
 在server文件运行npm start(启动后端)，再运行小程序，联通后即完成部署
+
+-------------------------------------------
+
+
+本作品已申请软著并在微信小程序中上线体验链接：
+欢迎大家部署和改进该项目
+作者联系方式：3067311425（QQ）
+欢迎大家交流
 
 </aside>
